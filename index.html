@@ -63,8 +63,8 @@
         },
         onEntrypointLoaded: function(engineInitializer) {
           engineInitializer.initializeEngine().then(function(appRunner) {
+            console.log('Hi');
             appRunner.runApp();
-            console.log('Hi')
           });
         }
       });
